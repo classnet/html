@@ -1,0 +1,20 @@
+body{
+  margin:0px;
+  padding:0px;
+  background:#000000
+}
+.h,.m,.s{
+	width:100px;
+	height:10px;	
+	position:absolute;	
+}
+#am,#pm,#h8,#h4,#h2,#h1{left:20px;}
+#m32,#m16,#m8,#m4,#m2,#m1{left:130px;}
+#s32,#s16,#s8,#s4,#s2,#s1{left:240px;}
+
+#am,#m32,#s32{top:10px;}
+#pm,#m16,#s16{top:30px;}
+#h8,#m8,#s8{top:50px;}
+#h4,#m4,#s4{top:70px;}
+#h2,#m2,#s2{top:90px;}
+#h1,#m1,#s1{top:110px;}	
